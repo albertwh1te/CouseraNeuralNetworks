@@ -114,4 +114,14 @@ $$ w_{1} < \theta , w_{2}< \theta $$
 * to deal with such transformations ,a perceptron needs to use multiple feature unit to recognize transformations of informative sub-patterns
 - so the tricky part of pattern recognition must  be solved  by the hand-coded
 feature detector, not the learning  procedure.
+## learning with hidden units 
+* networks without hidden units are very limited in the input-output mappings the can learn to model.
+- more layers of linear units do not help, its still linear
+- fixed output no-linearities are not enough
+* we need multiple layers of adaptive, no-linear hidden units . but how can we train such nets?
+- we need an efficient way of adapting all the weight  ,not just the last layer
+- learning  the weights going into hidden units is equivalent to learning features
+- this is difficult because nobody is telling us directly what the hidden units should do
+* the hidden units became the features detector !
+
 
