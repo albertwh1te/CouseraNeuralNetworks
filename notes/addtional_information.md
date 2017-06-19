@@ -8,7 +8,6 @@
 2. Incomplete observability
 3. Incomplete modeling
 
-
 # Information theory allows us to quantify the amount of uncertainty in a probability distribution
 
 
