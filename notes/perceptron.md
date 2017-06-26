@@ -1,4 +1,22 @@
-# perceptrons
+---
+title: perceptron
+date: 2017-06-06 07:00:00
+tags:
+  - deep learning
+  - machine learning
+  - data mining
+categories: notes
+---
+
+# lecture 2a
+## an overview of the main types of neural network architecture
+
+* feed-forward neural networks(more than one hidden layer call them "deep" neural networks)
+* recurrent networks
+these have directly cycles in their connection
+- for modeling sequences
+* symmetrically connected networks
+
 
 # lecture 2b
 
@@ -82,6 +100,7 @@ positive case (same): (1,1)->1,(0,0)->1
 negative case (different): (1,0)->0,(0,1)->0
 
 * the four input-output pairs give four inequalities to satisfy:
+
 $$ w_{1}+w_{2} >= \theta ,0 >= \theta $$
 $$ w_{1} < \theta , w_{2}< \theta $$
 ## geometric view of what binary threshold neuron cannot do
@@ -123,5 +142,4 @@ feature detector, not the learning  procedure.
 - learning  the weights going into hidden units is equivalent to learning features
 - this is difficult because nobody is telling us directly what the hidden units should do
 * the hidden units became the features detector !
-
 
